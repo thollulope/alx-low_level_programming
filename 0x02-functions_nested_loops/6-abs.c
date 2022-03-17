@@ -1,20 +1,47 @@
 #include "main.h"
 
 /**
- * print_last_digit - return last digit
- * @n : number to check
- * Return:0 or 1
+ * _abs - computes the absolute value for an interger
+ * @n: interger to be tested
+ * Return: 0 or 1
  */
 
-int print_last_digit(int n)
+int _abs(int n)
+
 {
-	int nv;
+	return (n < 0 ? -1 * n : n);
+}~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                       9,1           All
 
-	if (n < 0)
-		nv = -1 * (n % 10);
-	else
-		nv = n % 10;
-
-	_putchar(nv + '0');
-		return (nv);
-}
